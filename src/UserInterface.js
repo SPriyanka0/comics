@@ -1,14 +1,15 @@
 import React from "react"
 import CollectorButton from './CollectorButton'
+import SubmitForm from "./SubmitForm"
 
 export default function UserInterface(){
     return(
         <div>
-<h2> blah blah blah</h2>
-        <h2> words</h2>
+<h2>We carry the latest and greatest editions of your favorite comic books!</h2>
+        <h2>Are you a collector?</h2>
         <CollectorButton />
-        <h2> more words</h2>
-        
+        <h2>Have a special request? Click here to fill out our form!</h2>
+        <SubmitForm />
         </div>
         
 
